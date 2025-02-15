@@ -1,30 +1,3 @@
-// let blv = new XMLHttpRequest()
-// let tbody = document.querySelector("tbody")
-// blv.open("GET", "https://jsonplaceholder.typicode.com/posts")
-// blv.send()
-
-// blv.addEventListener("readystatechange", function () {
-//     console.log(blv.readyState);
-//     if (blv.readyState == 4) {
-//         let mydata = JSON.parse(blv.response)
-//         console.log("hello", mydata);
-//         showData(mydata)
-//     }
-// })
-
-// function showData(data) {
-//     let cartona = ''
-//     for (let i = 0; i < data.length; i++) {
-//         cartona += `
-//         <tr>
-//                 <td>${data[i].id}</td>
-//                 <td>${data[i].title}</td>
-//                 <td>${data[i].body}</td>
-//             </tr>
-//         `
-//     }
-//     tbody.innerHTML = cartona
-// }
 let http = new XMLHttpRequest()
 let row = document.querySelector(".row")
 let selctedfood = document.querySelector("select")
